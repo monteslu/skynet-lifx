@@ -46,7 +46,7 @@ var messageSchema = {
         on: {
           type: 'boolean'
         },
-        bri: {
+        lum: {
           type: 'number'
         },
         hue: {
@@ -55,7 +55,10 @@ var messageSchema = {
         sat: {
           type: 'number'
         },
-        transitiontime: {
+        timing: {
+          type: 'number'
+        },
+        white: {
           type: 'number'
         }
       }
