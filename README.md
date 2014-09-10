@@ -10,9 +10,9 @@ conn.gatewayConfig({
   uuid:  'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX',
   token: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   method: 'createSubdevice',
-  type: 'skynet-greeting',
-  name: 'hellos',
-  options: {"greetingPrefix": 'hello'}
+  type: 'skynet-lifx',
+  name: 'lifx',
+  options: {}
 }, function(results){ console.log(results); });
 ```
 
